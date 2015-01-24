@@ -1,3 +1,16 @@
+function myFunction() {
+    c2c.from = 'MjJtYXJ0aW4yMkBzZXpuYW0uY3o=';
+    c2c.text = 'Call Us Now &raquo;';
+    c2c.cls = 'btn btn-large btn-success';
+    c2c.config = {
+        http_service_url: null,
+        websocket_proxy_url: null,
+        sip_outbound_proxy_url: null
+    };
+    c2c.init();
+}
+
+
 c2c = {
     debug: false
 };
@@ -332,8 +345,8 @@ c2c.init = function() {
     c2c.audio_ringbacktone = document.createElement("audio");
     c2c.audio_ringbacktone.src = "sounds/ringbacktone.wav";
     c2c.audio_ringbacktone.loop = true;
-    document.write("<a href='#' class='btn btn-large btn-success' id='c2c_btn_call' style='position:fixed; visibility:hidden; z-index:98; top: 25%;'>Call us Now</a>");
-    document.write("<div id='c2c_div_glass' style='visibility:hidden;z-index: 99;position: fixed;width: 100%;height: 100%;margin: 0;padding: 0;top: 0;left: 0;opacity: 0.8;background-color: Gray'></div>");
+    //document.write("<a href='#' class='btn btn-large btn-success' id='c2c_btn_call' style='position:fixed; visibility:hidden; z-index:98; top: 25%;'>Call us Now</a>");
+    //document.write("<div id='c2c_div_glass' style='visibility:hidden;z-index: 99;position: fixed;width: 100%;height: 100%;margin: 0;padding: 0;top: 0;left: 0;opacity: 0.8;background-color: Gray'></div>");
     
     
     c2c.div_glass = document.getElementById("c2c_div_glass");
@@ -397,8 +410,8 @@ if (!c2c.started) {
     c2c.call()
 }
 };
-document.body.appendChild(c2c.button_call);
-document.body.appendChild(c2c.audio_remote);
+//document.body.appendChild(c2c.button_call);
+//document.body.appendChild(c2c.audio_remote);
 SIPml.init(function(a) {
     c2c.button_call.style.visibility = "visible"
 }, function(a) {

@@ -7,20 +7,9 @@
   <link rel="stylesheet" href="stylesheets/styles.css">
   <link rel="stylesheet" href="stylesheets/pygment_trac.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <!-- call us now button -->
   <script src="javascripts/respond.js"></script>
-  <!--<script type='text/javascript' src='javascripts/c2c-api.js'></script>
-  <script type='text/javascript'>
-  c2c.from = 'MjJtYXJ0aW4yMkBzZXpuYW0uY3o=';
-  c2c.text = 'Call Us Now &raquo;';
-  c2c.cls = 'btn btn-large btn-success';
-  c2c.config = {
-    http_service_url: null,
-    websocket_proxy_url: null,
-    sip_outbound_proxy_url: null
-  };
-  c2c.init();
-  </script>-->
+  <!-- call us now button -->
+  <script type='text/javascript' src='javascripts/c2c-api.js'></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
@@ -29,9 +18,7 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
-  <body>
-    <a href='#' class='btn btn-large btn-success' id='c2c_btn_call' style='position:fixed; visibility:hidden; z-index:98; top: 35%;'>Call us Now</a>"
-          <div id='c2c_div_glass' style='visibility:hidden;z-index: 99;position: fixed;width: 100%;height: 100%;margin: 0;padding: 0;top: 0;left: 0;opacity: 0.8;background-color: Gray'></div>
+  <body onload="myFunction()">
     <div id="header">
       <nav>
         <li class="fork"><a href="index.html">Home</a></li>
@@ -47,27 +34,14 @@
     <div class="wrapper">
 
       <section>
-        <h3>
-          Try it Now:
-        </h3>
         <div id="title">
-          <p>Try it now!</p>
-          <hr>
         </div>
-<script type='text/javascript' src='http://click2dial.org/c2c-api.js'></script>
-<script type='text/javascript'>
-  c2c.from = 'MjJtYXJ0aW4yMkBzZXpuYW0uY3o=';
-  c2c.text = 'call us &raquo;';
-  c2c.cls = 'btn btn-large btn-success';
-  c2c.config = {
-        http_service_url: null,
-        websocket_proxy_url: null,
-        sip_outbound_proxy_url: null
-  };
-  c2c.init();
-</script>
+        <h3>Try it now:</h3>
+        <hr>
 
-        Information about public transportation in new york
+        <a href='#' class='btn btn-large btn-success' id='c2c_btn_call' style='z-index:98;'>Call us Now</a>
+        <div id='c2c_div_glass' style='z-index: 99;opacity: 0.8;background-color: Gray;'></div>
+        <br>
         <hr>
       </section>
     </div>
