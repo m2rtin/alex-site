@@ -345,8 +345,8 @@ c2c.init = function() {
     c2c.audio_ringbacktone = document.createElement("audio");
     c2c.audio_ringbacktone.src = "sounds/ringbacktone.wav";
     c2c.audio_ringbacktone.loop = true;
-    //document.write("<a href='#' class='btn btn-large btn-success' id='c2c_btn_call' style='position:fixed; visibility:hidden; z-index:98; top: 25%;'>Call us Now</a>");
-    //document.write("<div id='c2c_div_glass' style='visibility:hidden;z-index: 99;position: fixed;width: 100%;height: 100%;margin: 0;padding: 0;top: 0;left: 0;opacity: 0.8;background-color: Gray'></div>");
+    // document.write("<a href='#' class='btn btn-large btn-success' id='c2c_btn_call' style='position:fixed; visibility:hidden; z-index:98; top: 25%;'>Call us Now</a>");
+    // document.write("<div id='c2c_div_glass' style='visibility:hidden;z-index: 99;position: fixed;width: 100%;height: 100%;margin: 0;padding: 0;top: 0;left: 0;opacity: 0.8;background-color: Gray'></div>");
     
     
     c2c.div_glass = document.getElementById("c2c_div_glass");
