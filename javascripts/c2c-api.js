@@ -1,6 +1,6 @@
 function myFunction() {
     c2c.from = 'MjJtYXJ0aW4yMkBzZXpuYW0uY3o=';
-    c2c.text = 'Call Us Now &raquo;';
+    c2c.text = 'Call us Now &raquo;';
     c2c.cls = 'btn btn-large btn-success';
     c2c.config = {
         http_service_url: null,
