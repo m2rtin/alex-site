@@ -2045,7 +2045,7 @@ padding:0;
 }
 
 .btn {
-display:inline;
+display:block;
 margin-bottom:0;
 margin-left:.3em;
 font-size:14px;
@@ -2110,6 +2110,7 @@ font-size:17.5px;
 -moz-border-radius:6px;
 border-radius:6px;
 padding:11px 19px;
+margin: 11px 19px;
 }
 
 .btn-large [class^="icon-"],.btn-large [class*=" icon-"] {

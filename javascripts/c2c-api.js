@@ -1,7 +1,7 @@
 function myFunction() {
     c2c.from = 'MjJtYXJ0aW4yMkBzZXpuYW0uY3o=';
     c2c.text = 'Call us Now &raquo;';
-    c2c.cls = 'btn btn-large btn-success';
+    // c2c.cls = 'btn btn-large btn-success';
     c2c.config = {
         http_service_url: null,
         websocket_proxy_url: null,
@@ -349,7 +349,7 @@ c2c.init = function() {
     // document.write("<div id='c2c_div_glass' style='visibility:hidden;z-index: 99;position: fixed;width: 100%;height: 100%;margin: 0;padding: 0;top: 0;left: 0;opacity: 0.8;background-color: Gray'></div>");
     
     
-    c2c.div_glass = document.getElementById("c2c_div_glass");
+    // c2c.div_glass = document.getElementById("c2c_div_glass");
     c2c.button_call = document.getElementById("c2c_btn_call");
     if (c2c.cls) {
         c2c.button_call.setAttribute("class", c2c.cls)
@@ -386,13 +386,13 @@ c2c.init = function() {
                             c2c.button_call.innerHTML = c2c.button_call._innerHTML;
                             break;
                             case "m_permission_requested":
-                            if (c2c.glass) {
-                                c2c.div_glass.style.visibility = "visible"
-                            }
+                            // if (c2c.glass) {
+                            //     c2c.div_glass.style.visibility = "visible"
+                            // }
                             break;
                             case "m_permission_accepted":
                             case "m_permission_refused":
-                            c2c.div_glass.style.visibility = "hidden";
+                            // c2c.div_glass.style.visibility = "hidden";
                             break;
                             break
                         }
@@ -530,7 +530,7 @@ c2c.call = function(c) {
                 c2c.button_call.innerHTML = f.description.toLowerCase();
                 c2c.callSession = null;
                 c2c.audio_ringbacktone.pause();
-                c2c.div_glass.style.visibility = "hidden";
+                // c2c.div_glass.style.visibility = "hidden";
                 window.setTimeout(function() {
                     c2c.button_call.innerHTML = c2c.button_call._innerHTML;
                     if (c2c.started && !c2c.callSession) {
