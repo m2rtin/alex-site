@@ -47,7 +47,7 @@ input[type=checkbox]:checked ~ #menu{
 
 /*Responsive Styles*/
 
-@media screen and (max-width : 980px){
+@media screen and (max-width : 480px){
   #header nav li {
     line-height: 15px;
   }
