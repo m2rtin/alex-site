@@ -29,7 +29,7 @@ nav li a:hover + .hidden, .hidden:hover {
   background: url(../images/nav-bg.gif) #353535;
   text-align: center;
   color:#93bd20;
-  padding: 5px 0;
+  padding: 10px 0 0 0;
   display: none;
 }
 
@@ -47,7 +47,7 @@ input[type=checkbox]:checked ~ #menu{
 
 /*Responsive Styles*/
 
-@media screen and (max-width : 650px){
+@media screen and (max-width : 622px){
   #header nav li {
     line-height: 15px;
   }
@@ -98,7 +98,8 @@ input[type=checkbox]:checked ~ #menu{
 
   #header nav li a {
     line-height: 10px;
-    padding: 10px;
+    padding: 20px;
+    font-size: 20px;
     margin: 0px;
   }
   /*Display 'show menu' link*/

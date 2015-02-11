@@ -6,6 +6,7 @@
   <title>Alex - PTI service for New York - Try it Now</title>
   <link rel="stylesheet" href="stylesheets/styles.css">
   <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <link rel="stylesheet" href="stylesheets/menu.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="javascripts/respond.js"></script>
   <!-- call us now button -->
@@ -17,17 +18,23 @@
     <!--[if lt IE 8]>
     <link rel="stylesheet" href="stylesheets/ie.css">
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
   </head>
-  <body onload="myFunction()">
+  <body>
+
     <div id="header">
-      <nav>
+
+      <label for="show-menu" class="show-menu">Show Menu</label>
+      <input type="checkbox" id="show-menu" role="button">
+      <nav id="menu">
         <li class="fork"><a href="index.html">Home</a></li>
         <li class="fork"><a href="examples.html">Examples</a></li>
         <li class="fork"><a href="try-now.html">Try now!</a></li>
         <li class="fork"><a href="consent.html">Terms</a></li>
         <li class="fork"><a href="contact.html">Contact</a></li>
-        <li class="number"><b>1-631-832-1179</b></li>
+        <li class="number"><div class="num"><b>1-631-832-1179</b><div></li>
         <li class="title">CALL: </li>
       </nav>
     </div><!-- end header -->
