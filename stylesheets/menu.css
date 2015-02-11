@@ -47,12 +47,13 @@ input[type=checkbox]:checked ~ #menu{
 
 /*Responsive Styles*/
 
-@media screen and (max-width : 480px){
+@media screen and (max-width : 650px){
   #header nav li {
     line-height: 15px;
   }
   /*Make dropdown links appear inline*/
-  nav {
+  #header nav {
+    padding: 0px;
     margin: 0px;
     position: static;
     display: none;
@@ -78,21 +79,21 @@ input[type=checkbox]:checked ~ #menu{
     float: left;
     width: 100%;
     color: white;
-  
+
   }
 
   .num{
     padding: 10px;
     width: 100%;
     border: 1px solid #5d910b;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
-  border-radius: 2px;
-  background-color: #5d910b;
-  display: inline-block;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #5d910b;
+    display: inline-block;
   }
 
   #header nav li a {
