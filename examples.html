@@ -39,6 +39,9 @@
               <li><a href="#local">Local transit</a></li>
               <li><a href="#intercity">Intercity transit</a></li>
               <li><a href="#weather">Weather forecast</a></li>
+              <li><a href="#time">Time Zone info</a></li>
+              <li><a href="#help">HELP</a></li>
+              <li><a href="#reset">RESET</a></li>
             </ul>
           </p>         
         </div>
@@ -62,14 +65,13 @@
             <tr><th>Speaker</th><th>Text</th></tr>
           </thead>
           <tbody>
-            <tr><td>System</td><td>Hello this is Alex, the call is recorded, how may I help You?</td></tr>
+            <tr><td>Alex</td><td>Hello this is Alex, the call is recorded, how may I help You?</td></tr>
             <tr class="alt"><td>USER</td><td>I'M LOOKING FOR A CONNECTION.</td></tr>
-            <tr><td>System</td><td>Where do You want to go?</td></tr>
-            <tr class="alt"><td>USER</td><td>I WANT TO BE AT .</td></tr>
-            <tr><td>System</td><td>What is Your initial station?</td></tr>
+            <tr><td>Alex</td><td>Where do You want to go?</td></tr>
+            <tr class="alt"><td>USER</td><td>I WANT TO BE AT FRANKLIN STREET IN FIFTY MINUTES.</td></tr>
+            <tr><td>Alex</td><td>Alright, to Franklin St. in 50 minutes. Where do You want to travel from?</td></tr>
             <tr class="alt"><td>USER</td><td>I AM ON THE CORNER OF BROADWAY AND COOPER STREET AT THE MOMENT.</td></tr>
-            <tr><td>System</td><td>I have found the following connection. Take the subway N at 9.22 am from the Fifty Ninth street towards Astoria and Ditmars Boulevard. Transfer at Canal Street to a subway J, that goes at 9.49 am towards Jamaica Center - Parsons at Archer. Get of at Chauncey street and walk to your destination.</td></tr>
-            <tr class="alt"><td>USER</td><td>THAT'S IT, SEE YA!</td></tr>
+            <tr><td>Alex</td><td>As a first possibility I have found the following connection. Walk to Chauncey St, take the subway J at 1:22pm from Chauncey St towards Broad St. Get off at Hewes St. Walk to Broadway. Take the subway G at 1:42pm from Broadway towards Court Sq. Get off at Greenpoint Av. and walk to your destination.</td></tr>
           </tbody>
         </table>
       </div>
@@ -89,13 +91,14 @@
           <tr><th>Speaker</th><th>Text</th></tr>
         </thead>
         <tbody>
-          <tr><td>System</td><td>Hello this is Alex, the call is recorded, how may I help You?</td></tr>
           <tr class="alt"><td>USER</td><td>HI, I WANT TO GO FROM ROCHESTER TO SYRACUSE.</td></tr>
-          <tr><td>System</td><td>Alright, from Rochester to Syracuse. I have found the following connection. Take the train Empire Service at 11:41 am from the Rochester Amtrak towards New York Penn station. Get of at the Syracuse Regional transportation 
+          <tr><td>Alex</td><td>Alright, from Rochester to Syracuse. I have found the following connection. Take the train Empire Service at 2:13pm from the Rochester Amtrak towards New York Penn station. Get of at the Syracuse Regional transportation 
             center.</td></tr>
             <tr class="alt"><td>USER</td><td>HOW LONG DOES IT TAKE?</td></tr>
-            <tr><td>System</td><td>It takes about one hour and twenty minutes.</td></tr>
-            <tr class="alt"><td>USER</td><td>THANKS, BYE!</td></tr>
+            <tr><td>Alex</td><td>It takes about 1 hour and 15 minutes.</td></tr>
+            <tr class="alt"><td>USER</td><td>WHEN WILL I BE THERE?!</td></tr>
+            <tr><td>Alex</td><td>The train arrives at Syracuse Regional Transportation Center at 3:28pm.</td></tr>
+            
           </tbody>
         </table>
       </div>
@@ -115,17 +118,86 @@
           <tr><th>Speaker</th><th>Text</th></tr>
         </thead>
         <tbody>
-          <tr><td>System</td><td>Hello this is Alex, the call is recorded, how may I help You?</td></tr>
-          <tr class="alt"><td>USER</td><td>HI, WHAT IS THE WEATHER IN BALTIMORE?</td></tr>
-          <tr><td>System</td><td>In what state?</td></tr>
+          <tr class="alt"><td>USER</td><td>WHAT IS THE WEATHER IN BALTIMORE?</td></tr>
+          <tr><td>Alex</td><td>In what state?</td></tr>
           <tr class="alt"><td>USER</td><td>IN MARYLAND.</td></tr>
-          <tr><td>System</td><td>It is forty degrees, scattered clouds.</td></tr>
-          <tr class="alt"><td>USER</td><td>THANK YOU, GOOD BYE!</td></tr>
+          <tr><td>Alex</td><td>It is forty degrees, scattered clouds.</td></tr>
+          <tr class="alt"><td>USER</td><td>WHAT TIME IS IT IN LOS ANGELES?</td></tr>
+          <tr><td>Alex</td><td>In California, it is 10:24am, Pacific Standard Time.</td></tr>
         </tbody>
       </table>
     </div>
 
-  </section>
+    <hr>
+    <h5>
+      <a id="time" class="anchor" href="#local" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+      Time Zone info
+    </h5>
+    <div class="datagrid">
+      <table>
+        <colgroup>
+        <col style="width: 15%">
+        <col style="width: 85%">
+      </colgroup>
+      <thead>
+        <tr><th>Speaker</th><th>Text</th></tr>
+      </thead>
+      <tbody>
+        <tr class="alt"><td>USER</td><td>WHAT TIME IS IT IN LOS ANGELES?</td></tr>
+        <tr><td>Alex</td><td>In California, it is 10:24am, Pacific Standard Time.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <hr>
+  <h5>
+    <a id="help" class="anchor" href="#local" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+    HELP - Random sample
+  </h5>
+  <div class="datagrid">
+    <table>
+      <colgroup>
+      <col style="width: 15%">
+      <col style="width: 85%">
+    </colgroup>
+    <thead>
+      <tr><th>Speaker</th><th>Text</th></tr>
+    </thead>
+    <tbody>
+      <tr class="alt"><td>USER</td><td>HELP</td></tr>
+      <tr><td>Alex</td><td>You can ask for the destination of the offered link.</td></tr>
+      <tr class="alt"><td>USER</td><td>WHAT'S THE DESTINATION?</td></tr>
+      <tr><td>Alex</td><td>Syracuse Regional Transportation Center.</td></tr>
+    </tbody>
+  </table>
+</div>
+<hr>
+<h5>
+  <a id="reset" class="anchor" href="#local" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+  RESET - confused state
+</h5>
+<div class="datagrid">
+  <table>
+    <colgroup>
+    <col style="width: 15%">
+    <col style="width: 85%">
+  </colgroup>
+  <thead>
+    <tr><th>Speaker</th><th>Text</th></tr>
+  </thead>
+  <tbody>
+    <tr class="alt"><td>USER</td><td>WHAT IS THE TIME IN FLORIDA?</td></tr>
+    <tr><td>Alex</td><td>In Florida, it is 1:42PM, Eastern Standard Time.</td></tr>
+    <tr class="alt"><td>USER</td><td>WHAT IS THE WEATHER LIKE IN LOS ANGELES?</td></tr>
+    <tr><td>Alex</td><td>I'm sorry, I don't understand, the city Los Angeles is not located in Florida.</td></tr>
+    <tr class="alt"><td>USER</td><td>LET'S START OVER.</td></tr>
+    <tr><td>Alex</td><td>OK, Let's start over, how may I help You?</td></tr>
+    <tr class="alt"><td>USER</td><td>WHAT IS THE WEATHER LIKE IN LOS ANGELES?</td></tr>
+    <tr><td>Alex</td><td>It is thirty degrees and few clouds.</td></tr>
+  </tbody>
+</table>
+</div>
+
+</section>
 </div>
 <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
