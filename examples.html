@@ -38,12 +38,21 @@
 
     <div class="wrapper">
       <section>
+        <p>
+          Alex introduces an easy way to get to subway, bus, rail, ferry and monorail transit information around NYC and NJ. You can specify your location and destination and it will provide you with the first connection. You may further specify your trip requirements such as relative or absolute departure and arrival times or preferred vehicle. You can cycle through few options back and forth in the given timespan. You can subsequently ask for additional information such as relative or absolute departure and arrival time, names of origin, destination, transfer count, current time and duration. Furthermore, You can ask about the weather in any US city and the time zone in any state.
+        </p>
         <h3>EXAMPLE DIALOGUES</h3>
         <div id="title">
           <p>
             <ul>
-              <li><a href="#local">Local transit</a></li>
-              <li><a href="#intercity">Intercity transit</a></li>
+              <li>
+                <a href="#local">Transit</a></li>
+                <ul style="margin-bottom:0px">
+                  <li><a href="#local">Local transit</a></li>
+                  <li><a href="#intercity">Intercity transit</a></li>
+                  <!--<li><a href="#street">NEW: Street input</a></li>-->
+                </ul>
+              </li>
               <li><a href="#weather">Weather forecast</a></li>
               <li><a href="#time">Time Zone info</a></li>
               <li><a href="#help">HELP</a></li>
@@ -53,8 +62,11 @@
         </div>
 
         <p>
-          <b>TODO:Examples will be different, just have to make up some short and apt ones</b>
+          <b>TODO:Examples - street, stop, city, borough</b>
         </p>
+        
+
+      
 
         <hr>
         <h5>
@@ -108,6 +120,31 @@
           </tbody>
         </table>
       </div>
+<!--
+    <hr>
+        <h5>
+          <a id="street" class="anchor" href="#local" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+          NEW: Street input
+        </h5>
+        <div class="datagrid">
+          <table>
+            <colgroup>
+            <col style="width: 15%">
+            <col style="width: 85%">
+          </colgroup>
+          <thead>
+            <tr><th>Speaker</th><th>Text</th></tr>
+          </thead>
+          <tbody>
+            <tr class="alt"><td>USER</td><td>I WANT TO GO FROM WEST FOURTY SECOND STREET AND SEVENTH AVENUE.</td></tr>
+            <tr><td>Alex</td><td>You want to go from W 42nd St. and 7th Ave. What station do You want to go to?</td></tr>
+            <tr class="alt"><td>USER</td><td>TO BROADWAY IN BRONX.</td></tr>
+            <tr><td>Alex</td><td>Alright, to Broadway in Bronx, I have found the following connection. Walk to Times Squ. and 42nd St. Take the subway Q at 4:11am from Times Sq. and 42nd St. towards 57th St. and 7th Ave. Get off at 49th St. and walk to your destination.</td></tr>
+            <tr class="alt"><td>USER</td><td>I AM ON THE CORNER OF BROADWAY AND COOPER STREET AT THE MOMENT.</td></tr>
+            <tr><td>Alex</td><td>As a first possibility I have found the following connection. Walk to Chauncey St, take the subway J at 1:22pm from Chauncey St towards Broad St. Get off at Hewes St. Walk to Broadway. Take the subway G at 1:42pm from Broadway towards Court Sq. Get off at Greenpoint Av. and walk to your destination.</td></tr>
+          </tbody>
+        </table>
+      </div>-->
 
       <hr>
       <h5>
@@ -202,6 +239,10 @@
   </tbody>
 </table>
 </div>
+<hr>
+<p>
+  More to come...
+</p>
 
 </section>
 </div>
